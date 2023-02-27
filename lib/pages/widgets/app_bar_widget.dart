@@ -30,9 +30,11 @@ class _AppBarWidgetState extends State<AppBarWidget> {
                 )
               ], shape: BoxShape.circle),
               child: CircleAvatar(
-                backgroundColor: Colors.pink,
+                backgroundColor: Constants.orange,
                 radius: 30,
-                child: Image.asset("images/mapp.png"),
+                backgroundImage: AssetImage(
+                  "images/mark1.png",
+                ),
               ),
             )
           else
